@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30E1B0A00B63737BB6BB7241 /* Pods_memotakuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBACD9F9DFD378988546BF /* Pods_memotakuTests.framework */; };
+		3DF0B38D2C109720F7161633 /* Pods_memotaku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F1523E2561D48D5BA0D801 /* Pods_memotaku.framework */; };
+		6D4014D52AD5336B00695C2C /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4014D42AD5336B00695C2C /* CalculatorViewController.swift */; };
+		6D4014D72AD55E3500695C2C /* SaveNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4014D62AD55E3500695C2C /* SaveNameViewController.swift */; };
+		9F0E0CDA57AE16996E884EDC /* Pods_memotaku_memotakuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C46701C438580EA0A1B526 /* Pods_memotaku_memotakuUITests.framework */; };
+		F916764A2AD4BA4000680FF9 /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91676492AD4BA4000680FF9 /* popupViewController.swift */; };
 		F94F6EDC2ABCF5F100884915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EDB2ABCF5F100884915 /* AppDelegate.swift */; };
 		F94F6EDE2ABCF5F100884915 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EDD2ABCF5F100884915 /* SceneDelegate.swift */; };
-		F94F6EE02ABCF5F100884915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EDF2ABCF5F100884915 /* ViewController.swift */; };
+		F94F6EE02ABCF5F100884915 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EDF2ABCF5F100884915 /* HomeViewController.swift */; };
 		F94F6EE32ABCF5F100884915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F6EE12ABCF5F100884915 /* Main.storyboard */; };
 		F94F6EE52ABCF5F200884915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F6EE42ABCF5F200884915 /* Assets.xcassets */; };
 		F94F6EE82ABCF5F200884915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F6EE62ABCF5F200884915 /* LaunchScreen.storyboard */; };
 		F94F6EF32ABCF5F200884915 /* memotakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EF22ABCF5F200884915 /* memotakuTests.swift */; };
 		F94F6EFD2ABCF5F200884915 /* memotakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EFC2ABCF5F200884915 /* memotakuUITests.swift */; };
 		F94F6EFF2ABCF5F200884915 /* memotakuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EFE2ABCF5F200884915 /* memotakuUITestsLaunchTests.swift */; };
+		F94F6F0C2AC0F4FE00884915 /* miss.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F6F0B2AC0F4FE00884915 /* miss.storyboard */; };
+		F94F6F0F2AC5173600884915 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F0D2AC5173600884915 /* MainTableViewCell.swift */; };
+		F94F6F102AC5173600884915 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94F6F0E2AC5173600884915 /* MainTableViewCell.xib */; };
+		F94F6F122ACA0DA500884915 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F112ACA0DA500884915 /* Calculator.swift */; };
+		F94F6F232ACA15B700884915 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F192ACA0E0F00884915 /* CalculatorTests.swift */; };
+		F94F6F262ACAC96D00884915 /* miss2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F252ACAC96D00884915 /* miss2.swift */; };
+		F94F6F282ACAE85200884915 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F272ACAE85200884915 /* Circle.swift */; };
+		F94F6F2E2ACC2ED000884915 /* Circle.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94F6F2D2ACC2ED000884915 /* Circle.xib */; };
+		F94F6F302AD41FC600884915 /* MainCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F2F2AD41FC600884915 /* MainCellModel.swift */; };
+		F94F6F322AD42EEC00884915 /* TableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F312AD42EEC00884915 /* TableViewCellDelegate.swift */; };
+		F969308F2ADEA7D200414885 /* HomeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F969308E2ADEA7D200414885 /* HomeViewControllerDelegate.swift */; };
+		F96930912ADF876300414885 /* SaveNameViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96930902ADF876300414885 /* SaveNameViewDelegate.swift */; };
+		F96930952AE13D7800414885 /* ItemSizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96930942AE13D7800414885 /* ItemSizeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +52,32 @@
 			remoteGlobalIDString = F94F6ED72ABCF5F100884915;
 			remoteInfo = memotaku;
 		};
+		F94F6F1B2ACA0E0F00884915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F94F6ED02ABCF5F100884915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F94F6ED72ABCF5F100884915;
+			remoteInfo = memotaku;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43F1523E2561D48D5BA0D801 /* Pods_memotaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memotaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3AD5B4841648AC461D149C /* Pods-memotaku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memotaku.debug.xcconfig"; path = "Target Support Files/Pods-memotaku/Pods-memotaku.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4014D42AD5336B00695C2C /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		6D4014D62AD55E3500695C2C /* SaveNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveNameViewController.swift; sourceTree = "<group>"; };
+		7CDBACD9F9DFD378988546BF /* Pods_memotakuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memotakuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEDF0C414C19CA58069FF7A /* Pods-memotakuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memotakuTests.release.xcconfig"; path = "Target Support Files/Pods-memotakuTests/Pods-memotakuTests.release.xcconfig"; sourceTree = "<group>"; };
+		C357C0964DCD4C4B382C9C50 /* Pods-memotakuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memotakuTests.debug.xcconfig"; path = "Target Support Files/Pods-memotakuTests/Pods-memotakuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBFE4835D2EA7A1E16DAFD63 /* Pods-memotaku-memotakuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memotaku-memotakuUITests.debug.xcconfig"; path = "Target Support Files/Pods-memotaku-memotakuUITests/Pods-memotaku-memotakuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C46701C438580EA0A1B526 /* Pods_memotaku_memotakuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memotaku_memotakuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE60332E37FBCBE74FAC662 /* Pods-memotaku-memotakuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memotaku-memotakuUITests.release.xcconfig"; path = "Target Support Files/Pods-memotaku-memotakuUITests/Pods-memotaku-memotakuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E4CAEC193434A0E8567626 /* Pods-memotaku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memotaku.release.xcconfig"; path = "Target Support Files/Pods-memotaku/Pods-memotaku.release.xcconfig"; sourceTree = "<group>"; };
+		F91676492AD4BA4000680FF9 /* popupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupViewController.swift; sourceTree = "<group>"; };
 		F94F6ED82ABCF5F100884915 /* memotaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memotaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F6EDB2ABCF5F100884915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94F6EDD2ABCF5F100884915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F94F6EDF2ABCF5F100884915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F94F6EDF2ABCF5F100884915 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F94F6EE22ABCF5F100884915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F94F6EE42ABCF5F200884915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94F6EE72ABCF5F200884915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +87,20 @@
 		F94F6EF82ABCF5F200884915 /* memotakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memotakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F6EFC2ABCF5F200884915 /* memotakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memotakuUITests.swift; sourceTree = "<group>"; };
 		F94F6EFE2ABCF5F200884915 /* memotakuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memotakuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F94F6F0B2AC0F4FE00884915 /* miss.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = miss.storyboard; sourceTree = "<group>"; };
+		F94F6F0D2AC5173600884915 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		F94F6F0E2AC5173600884915 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		F94F6F112ACA0DA500884915 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		F94F6F172ACA0E0F00884915 /* CaluculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaluculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94F6F192ACA0E0F00884915 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		F94F6F252ACAC96D00884915 /* miss2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miss2.swift; sourceTree = "<group>"; };
+		F94F6F272ACAE85200884915 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		F94F6F2D2ACC2ED000884915 /* Circle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Circle.xib; sourceTree = "<group>"; };
+		F94F6F2F2AD41FC600884915 /* MainCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellModel.swift; sourceTree = "<group>"; };
+		F94F6F312AD42EEC00884915 /* TableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellDelegate.swift; sourceTree = "<group>"; };
+		F969308E2ADEA7D200414885 /* HomeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerDelegate.swift; sourceTree = "<group>"; };
+		F96930902ADF876300414885 /* SaveNameViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveNameViewDelegate.swift; sourceTree = "<group>"; };
+		F96930942AE13D7800414885 /* ItemSizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSizeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF0B38D2C109720F7161633 /* Pods_memotaku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,10 +116,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E1B0A00B63737BB6BB7241 /* Pods_memotakuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F94F6EF52ABCF5F200884915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E0CDA57AE16996E884EDC /* Pods_memotaku_memotakuUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94F6F142ACA0E0F00884915 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,13 +138,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08DC216C418F7ED482DA56C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F1523E2561D48D5BA0D801 /* Pods_memotaku.framework */,
+				E2C46701C438580EA0A1B526 /* Pods_memotaku_memotakuUITests.framework */,
+				7CDBACD9F9DFD378988546BF /* Pods_memotakuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F94F6ECF2ABCF5F100884915 = {
 			isa = PBXGroup;
 			children = (
 				F94F6EDA2ABCF5F100884915 /* memotaku */,
 				F94F6EF12ABCF5F200884915 /* memotakuTests */,
 				F94F6EFB2ABCF5F200884915 /* memotakuUITests */,
+				F94F6F182ACA0E0F00884915 /* CaluculatorTests */,
 				F94F6ED92ABCF5F100884915 /* Products */,
+				FEF408B65E4C124E30C8430C /* Pods */,
+				08DC216C418F7ED482DA56C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +167,7 @@
 				F94F6ED82ABCF5F100884915 /* memotaku.app */,
 				F94F6EEE2ABCF5F200884915 /* memotakuTests.xctest */,
 				F94F6EF82ABCF5F200884915 /* memotakuUITests.xctest */,
+				F94F6F172ACA0E0F00884915 /* CaluculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +177,26 @@
 			children = (
 				F94F6EDB2ABCF5F100884915 /* AppDelegate.swift */,
 				F94F6EDD2ABCF5F100884915 /* SceneDelegate.swift */,
-				F94F6EDF2ABCF5F100884915 /* ViewController.swift */,
+				F94F6EDF2ABCF5F100884915 /* HomeViewController.swift */,
 				F94F6EE12ABCF5F100884915 /* Main.storyboard */,
+				F94F6F112ACA0DA500884915 /* Calculator.swift */,
+				F94F6F272ACAE85200884915 /* Circle.swift */,
+				F94F6F2D2ACC2ED000884915 /* Circle.xib */,
+				F94F6F0D2AC5173600884915 /* MainTableViewCell.swift */,
+				F94F6F0E2AC5173600884915 /* MainTableViewCell.xib */,
+				F91676492AD4BA4000680FF9 /* popupViewController.swift */,
 				F94F6EE42ABCF5F200884915 /* Assets.xcassets */,
 				F94F6EE62ABCF5F200884915 /* LaunchScreen.storyboard */,
 				F94F6EE92ABCF5F200884915 /* Info.plist */,
+				F94F6F252ACAC96D00884915 /* miss2.swift */,
+				F94F6F0B2AC0F4FE00884915 /* miss.storyboard */,
+				F94F6F2F2AD41FC600884915 /* MainCellModel.swift */,
+				6D4014D42AD5336B00695C2C /* CalculatorViewController.swift */,
+				6D4014D62AD55E3500695C2C /* SaveNameViewController.swift */,
+				F94F6F312AD42EEC00884915 /* TableViewCellDelegate.swift */,
+				F969308E2ADEA7D200414885 /* HomeViewControllerDelegate.swift */,
+				F96930902ADF876300414885 /* SaveNameViewDelegate.swift */,
+				F96930942AE13D7800414885 /* ItemSizeModel.swift */,
 			);
 			path = memotaku;
 			sourceTree = "<group>";
@@ -127,6 +218,27 @@
 			path = memotakuUITests;
 			sourceTree = "<group>";
 		};
+		F94F6F182ACA0E0F00884915 /* CaluculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F94F6F192ACA0E0F00884915 /* CalculatorTests.swift */,
+			);
+			path = CaluculatorTests;
+			sourceTree = "<group>";
+		};
+		FEF408B65E4C124E30C8430C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AD5B4841648AC461D149C /* Pods-memotaku.debug.xcconfig */,
+				F4E4CAEC193434A0E8567626 /* Pods-memotaku.release.xcconfig */,
+				CBFE4835D2EA7A1E16DAFD63 /* Pods-memotaku-memotakuUITests.debug.xcconfig */,
+				EFE60332E37FBCBE74FAC662 /* Pods-memotaku-memotakuUITests.release.xcconfig */,
+				C357C0964DCD4C4B382C9C50 /* Pods-memotakuTests.debug.xcconfig */,
+				7DEDF0C414C19CA58069FF7A /* Pods-memotakuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F94F6F022ABCF5F200884915 /* Build configuration list for PBXNativeTarget "memotaku" */;
 			buildPhases = (
+				2D66E926753ED0925063740B /* [CP] Check Pods Manifest.lock */,
 				F94F6ED42ABCF5F100884915 /* Sources */,
 				F94F6ED52ABCF5F100884915 /* Frameworks */,
 				F94F6ED62ABCF5F100884915 /* Resources */,
+				60065BC09CE236E87351FC2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F94F6F052ABCF5F200884915 /* Build configuration list for PBXNativeTarget "memotakuTests" */;
 			buildPhases = (
+				C716C6CAE4A7D9A3BDCC7F9C /* [CP] Check Pods Manifest.lock */,
 				F94F6EEA2ABCF5F200884915 /* Sources */,
 				F94F6EEB2ABCF5F200884915 /* Frameworks */,
 				F94F6EEC2ABCF5F200884915 /* Resources */,
@@ -169,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F94F6F082ABCF5F200884915 /* Build configuration list for PBXNativeTarget "memotakuUITests" */;
 			buildPhases = (
+				311795DD5164BA19A52FE862 /* [CP] Check Pods Manifest.lock */,
 				F94F6EF42ABCF5F200884915 /* Sources */,
 				F94F6EF52ABCF5F200884915 /* Frameworks */,
 				F94F6EF62ABCF5F200884915 /* Resources */,
+				1498E5312E96F9655EEEB633 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +299,24 @@
 			productName = memotakuUITests;
 			productReference = F94F6EF82ABCF5F200884915 /* memotakuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F94F6F162ACA0E0F00884915 /* CaluculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94F6F1D2ACA0E0F00884915 /* Build configuration list for PBXNativeTarget "CaluculatorTests" */;
+			buildPhases = (
+				F94F6F132ACA0E0F00884915 /* Sources */,
+				F94F6F142ACA0E0F00884915 /* Frameworks */,
+				F94F6F152ACA0E0F00884915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F94F6F1C2ACA0E0F00884915 /* PBXTargetDependency */,
+			);
+			name = CaluculatorTests;
+			productName = CaluculatorTests;
+			productReference = F94F6F172ACA0E0F00884915 /* CaluculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,6 +339,10 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = F94F6ED72ABCF5F100884915;
 					};
+					F94F6F162ACA0E0F00884915 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F94F6ED72ABCF5F100884915;
+					};
 				};
 			};
 			buildConfigurationList = F94F6ED32ABCF5F100884915 /* Build configuration list for PBXProject "memotaku" */;
@@ -222,6 +361,7 @@
 				F94F6ED72ABCF5F100884915 /* memotaku */,
 				F94F6EED2ABCF5F200884915 /* memotakuTests */,
 				F94F6EF72ABCF5F200884915 /* memotakuUITests */,
+				F94F6F162ACA0E0F00884915 /* CaluculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +373,10 @@
 			files = (
 				F94F6EE82ABCF5F200884915 /* LaunchScreen.storyboard in Resources */,
 				F94F6EE52ABCF5F200884915 /* Assets.xcassets in Resources */,
+				F94F6F0C2AC0F4FE00884915 /* miss.storyboard in Resources */,
 				F94F6EE32ABCF5F100884915 /* Main.storyboard in Resources */,
+				F94F6F102AC5173600884915 /* MainTableViewCell.xib in Resources */,
+				F94F6F2E2ACC2ED000884915 /* Circle.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,15 +394,137 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F94F6F152ACA0E0F00884915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1498E5312E96F9655EEEB633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memotaku-memotakuUITests/Pods-memotaku-memotakuUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memotaku-memotakuUITests/Pods-memotaku-memotakuUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memotaku-memotakuUITests/Pods-memotaku-memotakuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D66E926753ED0925063740B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memotaku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		311795DD5164BA19A52FE862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memotaku-memotakuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60065BC09CE236E87351FC2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memotaku/Pods-memotaku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memotaku/Pods-memotaku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memotaku/Pods-memotaku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C716C6CAE4A7D9A3BDCC7F9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memotakuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F94F6ED42ABCF5F100884915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94F6EE02ABCF5F100884915 /* ViewController.swift in Sources */,
+				F94F6F282ACAE85200884915 /* Circle.swift in Sources */,
+				F96930912ADF876300414885 /* SaveNameViewDelegate.swift in Sources */,
+				F969308F2ADEA7D200414885 /* HomeViewControllerDelegate.swift in Sources */,
+				6D4014D52AD5336B00695C2C /* CalculatorViewController.swift in Sources */,
+				F96930952AE13D7800414885 /* ItemSizeModel.swift in Sources */,
+				F916764A2AD4BA4000680FF9 /* popupViewController.swift in Sources */,
+				F94F6EE02ABCF5F100884915 /* HomeViewController.swift in Sources */,
 				F94F6EDC2ABCF5F100884915 /* AppDelegate.swift in Sources */,
+				F94F6F302AD41FC600884915 /* MainCellModel.swift in Sources */,
+				F94F6F322AD42EEC00884915 /* TableViewCellDelegate.swift in Sources */,
+				F94F6F0F2AC5173600884915 /* MainTableViewCell.swift in Sources */,
+				F94F6F262ACAC96D00884915 /* miss2.swift in Sources */,
+				F94F6F122ACA0DA500884915 /* Calculator.swift in Sources */,
+				6D4014D72AD55E3500695C2C /* SaveNameViewController.swift in Sources */,
 				F94F6EDE2ABCF5F100884915 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +546,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F94F6F132ACA0E0F00884915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94F6F232ACA15B700884915 /* CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +566,11 @@
 			isa = PBXTargetDependency;
 			target = F94F6ED72ABCF5F100884915 /* memotaku */;
 			targetProxy = F94F6EF92ABCF5F200884915 /* PBXContainerItemProxy */;
+		};
+		F94F6F1C2ACA0E0F00884915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F94F6ED72ABCF5F100884915 /* memotaku */;
+			targetProxy = F94F6F1B2ACA0E0F00884915 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,6 +710,7 @@
 		};
 		F94F6F032ABCF5F200884915 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3AD5B4841648AC461D149C /* Pods-memotaku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +724,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +740,7 @@
 		};
 		F94F6F042ABCF5F200884915 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E4CAEC193434A0E8567626 /* Pods-memotaku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +754,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +770,7 @@
 		};
 		F94F6F062ABCF5F200884915 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C357C0964DCD4C4B382C9C50 /* Pods-memotakuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +791,7 @@
 		};
 		F94F6F072ABCF5F200884915 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEDF0C414C19CA58069FF7A /* Pods-memotakuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +812,7 @@
 		};
 		F94F6F092ABCF5F200884915 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFE4835D2EA7A1E16DAFD63 /* Pods-memotaku-memotakuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +831,7 @@
 		};
 		F94F6F0A2ABCF5F200884915 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE60332E37FBCBE74FAC662 /* Pods-memotaku-memotakuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,6 +845,42 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = memotaku;
+			};
+			name = Release;
+		};
+		F94F6F1E2ACA0E0F00884915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWN9L6H4F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.CaluculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memotaku.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memotaku";
+			};
+			name = Debug;
+		};
+		F94F6F1F2ACA0E0F00884915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWN9L6H4F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = memo.CaluculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memotaku.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memotaku";
 			};
 			name = Release;
 		};
@@ -597,6 +919,15 @@
 			buildConfigurations = (
 				F94F6F092ABCF5F200884915 /* Debug */,
 				F94F6F0A2ABCF5F200884915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94F6F1D2ACA0E0F00884915 /* Build configuration list for PBXNativeTarget "CaluculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94F6F1E2ACA0E0F00884915 /* Debug */,
+				F94F6F1F2ACA0E0F00884915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
