@@ -12,7 +12,8 @@ import RealmSwift
 class SaveNameViewController: UIViewController {
     
     weak var saveDelegate: SaveNameViewDelegate?
-    var mainCellData: MainCellModel?
+    var mainCellData = MainCellModel()
+    var itemSizeData = ItemSizeModel()
     
     @IBOutlet weak var popUpView: UIView!
     
@@ -61,25 +62,17 @@ class SaveNameViewController: UIViewController {
             self.dismiss(animated: false, completion: nil)
         }
     }
+    
     func save() {
         let realm = try! Realm()
-        let memo = MainCellModel()
-        let item = ItemSizeModel()
-       //渡すデータ
-        memo.title = titleView.text ?? "無題"
-        memo.date = Date()
-        item.itemHeight = ""
-        item.itemWidth = ""
-        item.itemFullLength = ""
-        item.itemThickness = ""
-        item.itemWeight = ""
-        item.itemSquareMeter = ""
-        
 
         // Realm データベースに保存
         do {
             try realm.write {
-                realm.add(memo)
+                mainCellData.title = titleView.text ?? "無題"
+                mainCellData.date = Date()
+                mainCellData.itemSizeModel = itemSizeData
+                realm.add(mainCellData)
             }
         } catch {
             // エラーハンドリング

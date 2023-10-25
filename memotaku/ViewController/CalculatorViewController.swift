@@ -36,7 +36,7 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
     override func viewDidLoad() {
             super.viewDidLoad()
             // 他の初期化処理
-
+        itemHeightField.text = mainCellData.itemSizeModel?.itemHeight
         
         }
     
@@ -143,8 +143,7 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
     
     
     //保存する値
-    func itemSave() {
-        let realm = try! Realm()
+    func itemSave() -> ItemSizeModel {
         let itemSize = ItemSizeModel()
         //渡すデータ
         itemSize.itemHeight = itemHeightField.text ?? "0.0"
@@ -154,7 +153,7 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
         itemSize.itemWeight = itemWeightField.text ?? "0.0"
         itemSize.itemSquareMeter =  itemSquareMeterField.text ?? "0.0"
         
-        mainCellData.itemSizeModel = itemSize
+        return itemSize
     }
     
     
@@ -162,11 +161,8 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
         if segue.identifier == "toSaveName" {
             let nextView = segue.destination as! SaveNameViewController
             nextView.saveDelegate = delegate
+            nextView.itemSizeData = itemSave()
             nextView.mainCellData = mainCellData
-            itemSave()
-            
         }
     }
-    
-  
 }

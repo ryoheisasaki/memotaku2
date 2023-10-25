@@ -148,6 +148,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6D333E672AE91FAB0061D8B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F94F6F0D2AC5173600884915 /* MainTableViewCell.swift */,
+				F94F6EDF2ABCF5F100884915 /* HomeViewController.swift */,
+				F91676492AD4BA4000680FF9 /* popupViewController.swift */,
+				6D4014D42AD5336B00695C2C /* CalculatorViewController.swift */,
+				6D4014D62AD55E3500695C2C /* SaveNameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6D333E682AE91FD60061D8B2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F94F6F312AD42EEC00884915 /* TableViewCellDelegate.swift */,
+				F969308E2ADEA7D200414885 /* HomeViewControllerDelegate.swift */,
+				F96930902ADF876300414885 /* SaveNameViewDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		F94F6ECF2ABCF5F100884915 = {
 			isa = PBXGroup;
 			children = (
@@ -175,27 +197,21 @@
 		F94F6EDA2ABCF5F100884915 /* memotaku */ = {
 			isa = PBXGroup;
 			children = (
+				6D333E682AE91FD60061D8B2 /* Delegate */,
+				6D333E672AE91FAB0061D8B2 /* ViewController */,
 				F94F6EDB2ABCF5F100884915 /* AppDelegate.swift */,
 				F94F6EDD2ABCF5F100884915 /* SceneDelegate.swift */,
-				F94F6EDF2ABCF5F100884915 /* HomeViewController.swift */,
 				F94F6EE12ABCF5F100884915 /* Main.storyboard */,
 				F94F6F112ACA0DA500884915 /* Calculator.swift */,
 				F94F6F272ACAE85200884915 /* Circle.swift */,
 				F94F6F2D2ACC2ED000884915 /* Circle.xib */,
-				F94F6F0D2AC5173600884915 /* MainTableViewCell.swift */,
 				F94F6F0E2AC5173600884915 /* MainTableViewCell.xib */,
-				F91676492AD4BA4000680FF9 /* popupViewController.swift */,
 				F94F6EE42ABCF5F200884915 /* Assets.xcassets */,
 				F94F6EE62ABCF5F200884915 /* LaunchScreen.storyboard */,
 				F94F6EE92ABCF5F200884915 /* Info.plist */,
 				F94F6F252ACAC96D00884915 /* miss2.swift */,
 				F94F6F0B2AC0F4FE00884915 /* miss.storyboard */,
 				F94F6F2F2AD41FC600884915 /* MainCellModel.swift */,
-				6D4014D42AD5336B00695C2C /* CalculatorViewController.swift */,
-				6D4014D62AD55E3500695C2C /* SaveNameViewController.swift */,
-				F94F6F312AD42EEC00884915 /* TableViewCellDelegate.swift */,
-				F969308E2ADEA7D200414885 /* HomeViewControllerDelegate.swift */,
-				F96930902ADF876300414885 /* SaveNameViewDelegate.swift */,
 				F96930942AE13D7800414885 /* ItemSizeModel.swift */,
 			);
 			path = memotaku;

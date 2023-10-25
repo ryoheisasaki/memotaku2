@@ -101,7 +101,8 @@ extension HomeViewController: UITableViewDataSource {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
         let dateString = dateFormatter.string(from: memo.date)
-        
+        cell.delegate = self
+        cell.sizeData = memo
         cell.mainTitle.text = memo.title
         cell.mainDate.text = dateString // 日付の文字列を設定
         
@@ -125,13 +126,9 @@ extension HomeViewController: SaveNameViewDelegate {
 
 extension HomeViewController: TableViewCellDelegate {
     func segueToCalculator(with sizeData: MainCellModel) {
+        editData = sizeData
         // 別の画面に遷移
         performSegue(withIdentifier: "toCalculator", sender: nil)
-    }
-    
-    func segue(with sizeData: MainCellModel) {
-        editData  = sizeData
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
